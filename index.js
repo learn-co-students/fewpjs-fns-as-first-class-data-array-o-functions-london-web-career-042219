@@ -32,6 +32,6 @@ var wakeDog = function(dogName="Byron", dogBreed="poodle") {
   const dogArray = []
 
   function exerciseDog(dogName, dogBreed) {
-    return routine.map(fn => fn(dogName, dogBreed))
+    return routine.map(hello => hello(dogName, dogBreed))
 
   }
